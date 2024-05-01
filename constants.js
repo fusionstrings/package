@@ -6,5 +6,5 @@ const headers = {
   "Cache-Control":
     "s-maxage=1500, public, immutable, stale-while-revalidate=1501",
 };
-const PORT=1729;
-export { BASE_PATH, headers, maybeReadmeFiles, NPM_PROVIDER_URL };
+const PORT = 1729;
+export { BASE_PATH, headers, maybeReadmeFiles, NPM_PROVIDER_URL, PORT };
